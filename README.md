@@ -3,7 +3,7 @@ This Dockerfile creates minimalistic image which is useful as a base for data vo
 
 You can create new data volume container by this command:
 
-docker create -v /DESIRED/PATH --name CONTAINER_NAME vaclavv/minimal /
+docker create -v /DESIRED/PATH --name CONTAINER_NAME r2dev/minimal /
 
 See http://docs.docker.com/engine/userguide/dockervolumes/#creating-and-mounting-a-data-volume-container
 
